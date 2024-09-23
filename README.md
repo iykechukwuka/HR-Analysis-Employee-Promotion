@@ -26,21 +26,21 @@ Key Metrics:
 8.	Departmental Influence: How promotion rates vary across departments.
 Analysis Steps:
 1.	Data Cleaning and Preprocessing:
-o	Handling missing values for critical columns such as education and previous_year_rating.
-o	Converting categorical variables (e.g., department, recruitment_channel, region) into appropriate dummy variables.
+a.	Handling missing values for critical columns such as education and previous_year_rating.
+b.	Converting categorical variables (e.g., department, recruitment_channel, region) into appropriate dummy variables.
 2.	Exploratory Data Analysis (EDA):
-o	Demographics Analysis: Understanding the distribution of employee demographics like age, gender, and education level.
-o	Performance Factors: Exploring relationships between performance indicators (e.g., previous year ratings, training score, awards) and promotions.
-o	Department-wise Promotion Rate: Analyzing the promotion rate across various departments.
+a.	Demographics Analysis: Understanding the distribution of employee demographics like age, gender, and education level.
+b.	Performance Factors: Exploring relationships between performance indicators (e.g., previous year ratings, training score, awards) and promotions.
+c.	Department-wise Promotion Rate: Analyzing the promotion rate across various departments.
 3.	Data Modeling:
-o	Using Power BI’s Key Influencers Visual to determine the key factors influencing promotions.
-o	Building a predictive model by evaluating how various factors (age, previous ratings, training, education, etc.) affect the probability of promotion.
+a.	Using Power BI’s Key Influencers Visual to determine the key factors influencing promotions.
+b.	Building a predictive model by evaluating how various factors (age, previous ratings, training, education, etc.) affect the probability of promotion.
 4.	Visualization:
-o	KPI Dashboard: To track key metrics such as promotion rate, total awards won, and average training score.
-o	Bar Charts: Display promotion rates by department and Employee by region.
-o	Pie Charts: Promotion rates by Education level, Employee by education.
-o	Slicers: Recruitment channel and Number of trainings.
-o	Column Chart: Showing correlations between continuous variables like age range, training score range, and previous year rating.
+a.	KPI Dashboard: To track key metrics such as promotion rate, total awards won, and average training score.
+b.	Bar Charts: Display promotion rates by department and Employee by region.
+c.	Pie Charts: Promotion rates by Education level, Employee by education.
+d.	Slicers: Recruitment channel and Number of trainings.
+e.	Column Chart: Showing correlations between continuous variables like age range, training score range, and previous year rating.
 Key Insights:
 •	Employees with higher previous year ratings tend to have a better chance of getting promoted.
 •	Length of service beyond a certain threshold correlates positively with promotions.
